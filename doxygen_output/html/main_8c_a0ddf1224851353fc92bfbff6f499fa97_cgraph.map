@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Головна функція, реалізує взаємодію з користувачем та введення&#45;виведення" alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node2" href="$main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1" title="Функція, що будує H&#45;дерево та кодує файл" alt="" coords="104,56,168,83"/>
+<area shape="rect" id="node5" href="$main_8c.html#ae32d5e5468200a2a0152c7115ab77fc7" title="Функція, що зчитує Н&#45;дерево та декодує файл" alt="" coords="104,107,168,133"/>
+<area shape="rect" id="node3" href="$main_8c.html#a921e75299d6600cb4acded9ba5fab7dd" title="Функція, що рекурсивно пакує дерево у файл" alt="" coords="216,5,309,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#ae228fd37b6f12dba432cdf254c143890" title="Функція, що генерує дерево Хафмана в форматі graphviz." alt="" coords="223,56,302,83"/>
+<area shape="rect" id="node6" href="$main_8c.html#aea0acc0da9ca74ca8bf2efe074c06444" title="Функція, що рекурсивно розпаковує дерево з файлу" alt="" coords="216,107,309,133"/>
+</map>

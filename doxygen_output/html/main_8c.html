@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>haffman_method: Файл D:/WORK/C++/haffman_method/main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">haffman_method
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main_8c.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Структури даних</a> &#124;
+<a href="#define-members">Макровизначення</a> &#124;
+<a href="#typedef-members">Визначення типів</a> &#124;
+<a href="#func-members">Функції</a> &#124;
+<a href="#var-members">Змінні</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл D:/WORK/C++/haffman_method/main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;memory.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Діаграма включених заголовочних файлів для main.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c__incl.png" border="0" usemap="#D_1_2WORK_2C_09_09_2haffman__method_2main_8c" alt=""/></div>
+<map name="D_1_2WORK_2C_09_09_2haffman__method_2main_8c" id="D_1_2WORK_2C_09_09_2haffman__method_2main_8c">
+<area shape="rect"  title=" " alt="" coords="43,5,202,47"/>
+<area shape="rect"  title=" " alt="" coords="5,95,67,121"/>
+<area shape="rect"  title=" " alt="" coords="91,95,155,121"/>
+<area shape="rect"  title=" " alt="" coords="179,95,259,121"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Структури даних</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structobj__s.html">obj_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Структура для представлення вершини дерева  <a href="structobj__s.html#details">Детальніше...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtree__o.html">tree_o</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Структура для представлення вузла бінарного дерева  <a href="structtree__o.html#details">Детальніше...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макровизначення</h2></td></tr>
+<tr class="memitem:abf02908f8b38869dcc78ffc74106fd41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#abf02908f8b38869dcc78ffc74106fd41">READ_BIT</a>(a,  b)&#160;&#160;&#160;(((a)[(b)/8]&amp;<a class="el" href="main_8c.html#accf9a3775c119201a00f6cf6d0e62d93">ba</a>[(b)%8])&gt;&gt;(7-(b)%8))</td></tr>
+<tr class="separator:abf02908f8b38869dcc78ffc74106fd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6eaf065caffa3c2a933df45aa97c68e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ac6eaf065caffa3c2a933df45aa97c68e">WRITE_BIT</a>(a,  b,  v)&#160;&#160;&#160;(a)[(b)/8]=((a)[(b)/8]&amp;<a class="el" href="main_8c.html#a78d638cee113d5601ffcdc814ce80f57">iba</a>[(b)%8])|((<a class="el" href="main_8c.html#accf9a3775c119201a00f6cf6d0e62d93">ba</a>[(b)%8])*(v))</td></tr>
+<tr class="separator:ac6eaf065caffa3c2a933df45aa97c68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f297a8d02f0d68b8de625c2ea013d9e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a0f297a8d02f0d68b8de625c2ea013d9e">PACK_INT</a>(i,  c)&#160;&#160;&#160;{(c)[0]=(i&amp;0xFF000000)&gt;&gt;24;(c)[1]=(i&amp;0xFF0000)&gt;&gt;16;(c)[2]=(i&amp;0xFF00)&gt;&gt;8;(c)[3]=i&amp;0xFF;}</td></tr>
+<tr class="separator:a0f297a8d02f0d68b8de625c2ea013d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4413ef1b95e27b8df7d5adf0d68e8a1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a4413ef1b95e27b8df7d5adf0d68e8a1a">UNPACK_INT</a>(c,  i)&#160;&#160;&#160;{i=((c)[0]&lt;&lt;24)|((c)[1]&lt;&lt;16)|((c)[2]&lt;&lt;8)|(c)[3];}</td></tr>
+<tr class="separator:a4413ef1b95e27b8df7d5adf0d68e8a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Визначення типів</h2></td></tr>
+<tr class="memitem:a91ad9478d81a7aaf2593e8d9c3d06a14"><td class="memItemLeft" align="right" valign="top">typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td></tr>
+<tr class="separator:a91ad9478d81a7aaf2593e8d9c3d06a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f85814a8290f9797005d3b28e7e5fc"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></td></tr>
+<tr class="separator:a65f85814a8290f9797005d3b28e7e5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функції</h2></td></tr>
+<tr class="memitem:ae228fd37b6f12dba432cdf254c143890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ae228fd37b6f12dba432cdf254c143890">draw_tree</a> (<a class="el" href="structtree__o.html">tree_o</a> *tree, int tl, int *freq, int treem)</td></tr>
+<tr class="memdesc:ae228fd37b6f12dba432cdf254c143890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функція, що генерує дерево Хафмана в форматі graphviz.  <a href="#ae228fd37b6f12dba432cdf254c143890">Детальніше...</a><br /></td></tr>
+<tr class="separator:ae228fd37b6f12dba432cdf254c143890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921e75299d6600cb4acded9ba5fab7dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a921e75299d6600cb4acded9ba5fab7dd">encode_tree</a> (<a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *buf, int buf_p, <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> code[<a class="el" href="main_8c.html#a63ed315089caafcf9720aac0c2826f7d">alphabet_size</a>][<a class="el" href="main_8c.html#a7e590999171ee19212715b99a74e44c1">letter_size</a>+2], <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *r, int *r_p, <a class="el" href="structtree__o.html">tree_o</a> *tree, int ind)</td></tr>
+<tr class="memdesc:a921e75299d6600cb4acded9ba5fab7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функція, що рекурсивно пакує дерево у файл  <a href="#a921e75299d6600cb4acded9ba5fab7dd">Детальніше...</a><br /></td></tr>
+<tr class="separator:a921e75299d6600cb4acded9ba5fab7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8496f5dafa0bfe7ca18914a39fc305d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1">encode</a> (<a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *s, int s_s, <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *r, int *r_s, int dt, int treem)</td></tr>
+<tr class="memdesc:a8496f5dafa0bfe7ca18914a39fc305d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функція, що будує H-дерево та кодує файл  <a href="#a8496f5dafa0bfe7ca18914a39fc305d1">Детальніше...</a><br /></td></tr>
+<tr class="separator:a8496f5dafa0bfe7ca18914a39fc305d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0acc0da9ca74ca8bf2efe074c06444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aea0acc0da9ca74ca8bf2efe074c06444">decode_tree</a> (<a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *s, int *s_p, <a class="el" href="structtree__o.html">tree_o</a> *tree, int tree_p, int *tree_l)</td></tr>
+<tr class="memdesc:aea0acc0da9ca74ca8bf2efe074c06444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функція, що рекурсивно розпаковує дерево з файлу  <a href="#aea0acc0da9ca74ca8bf2efe074c06444">Детальніше...</a><br /></td></tr>
+<tr class="separator:aea0acc0da9ca74ca8bf2efe074c06444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32d5e5468200a2a0152c7115ab77fc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ae32d5e5468200a2a0152c7115ab77fc7">decode</a> (<a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *s, <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *r)</td></tr>
+<tr class="memdesc:ae32d5e5468200a2a0152c7115ab77fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функція, що зчитує Н-дерево та декодує файл  <a href="#ae32d5e5468200a2a0152c7115ab77fc7">Детальніше...</a><br /></td></tr>
+<tr class="separator:ae32d5e5468200a2a0152c7115ab77fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Головна функція, реалізує взаємодію з користувачем та введення-виведення  <a href="#a0ddf1224851353fc92bfbff6f499fa97">Детальніше...</a><br /></td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Змінні</h2></td></tr>
+<tr class="memitem:a63ed315089caafcf9720aac0c2826f7d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a63ed315089caafcf9720aac0c2826f7d">alphabet_size</a> = 256</td></tr>
+<tr class="separator:a63ed315089caafcf9720aac0c2826f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e590999171ee19212715b99a74e44c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a7e590999171ee19212715b99a74e44c1">letter_size</a> = 256</td></tr>
+<tr class="separator:a7e590999171ee19212715b99a74e44c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf9a3775c119201a00f6cf6d0e62d93"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#accf9a3775c119201a00f6cf6d0e62d93">ba</a> [8] = { 128, 64, 32, 16, 8, 4, 2, 1 }</td></tr>
+<tr class="separator:accf9a3775c119201a00f6cf6d0e62d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78d638cee113d5601ffcdc814ce80f57"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a78d638cee113d5601ffcdc814ce80f57">iba</a> [8] = { 127, 191, 223, 239, 247, 251, 253, 254 }</td></tr>
+<tr class="separator:a78d638cee113d5601ffcdc814ce80f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Опис макровизначень</h2>
+<a id="a0f297a8d02f0d68b8de625c2ea013d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f297a8d02f0d68b8de625c2ea013d9e">&#9670;&nbsp;</a></span>PACK_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PACK_INT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{(c)[0]=(i&amp;0xFF000000)&gt;&gt;24;(c)[1]=(i&amp;0xFF0000)&gt;&gt;16;(c)[2]=(i&amp;0xFF00)&gt;&gt;8;(c)[3]=i&amp;0xFF;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf02908f8b38869dcc78ffc74106fd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf02908f8b38869dcc78ffc74106fd41">&#9670;&nbsp;</a></span>READ_BIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_BIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(((a)[(b)/8]&amp;<a class="el" href="main_8c.html#accf9a3775c119201a00f6cf6d0e62d93">ba</a>[(b)%8])&gt;&gt;(7-(b)%8))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4413ef1b95e27b8df7d5adf0d68e8a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4413ef1b95e27b8df7d5adf0d68e8a1a">&#9670;&nbsp;</a></span>UNPACK_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNPACK_INT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{i=((c)[0]&lt;&lt;24)|((c)[1]&lt;&lt;16)|((c)[2]&lt;&lt;8)|(c)[3];}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6eaf065caffa3c2a933df45aa97c68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6eaf065caffa3c2a933df45aa97c68e">&#9670;&nbsp;</a></span>WRITE_BIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_BIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(a)[(b)/8]=((a)[(b)/8]&amp;<a class="el" href="main_8c.html#a78d638cee113d5601ffcdc814ce80f57">iba</a>[(b)%8])|((<a class="el" href="main_8c.html#accf9a3775c119201a00f6cf6d0e62d93">ba</a>[(b)%8])*(v))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Опис визначень типів</h2>
+<a id="a65f85814a8290f9797005d3b28e7e5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f85814a8290f9797005d3b28e7e5fc">&#9670;&nbsp;</a></span>uchar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned char <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91ad9478d81a7aaf2593e8d9c3d06a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ad9478d81a7aaf2593e8d9c3d06a14">&#9670;&nbsp;</a></span>uint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned int <a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Опис функцій</h2>
+<a id="ae32d5e5468200a2a0152c7115ab77fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32d5e5468200a2a0152c7115ab77fc7">&#9670;&nbsp;</a></span>decode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void decode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функція, що зчитує Н-дерево та декодує файл </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>Вказівник на буфер з вихідним файлом </td></tr>
+    <tr><td class="paramname">r</td><td>Вказівник на буфер з результативним файлом </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_cgraph.png" border="0" usemap="#main_8c_ae32d5e5468200a2a0152c7115ab77fc7_cgraph" alt=""/></div>
+<map name="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_cgraph" id="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_cgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð·ÑÐ¸ÑÑÑ Ð&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° Ð´ÐµÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="5,5,69,32"/>
+<area shape="rect"  href="main_8c.html#aea0acc0da9ca74ca8bf2efe074c06444" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ ÑÐ¾Ð·Ð¿Ð°ÐºÐ¾Ð²ÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð· ÑÐ°Ð¹Ð»Ñ" alt="" coords="117,5,211,32"/>
+</map>
+</div>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_icgraph.png" border="0" usemap="#main_8c_ae32d5e5468200a2a0152c7115ab77fc7_icgraph" alt=""/></div>
+<map name="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_icgraph" id="main_8c_ae32d5e5468200a2a0152c7115ab77fc7_icgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð·ÑÐ¸ÑÑÑ Ð&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° Ð´ÐµÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,5,168,32"/>
+<area shape="rect"  href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aea0acc0da9ca74ca8bf2efe074c06444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0acc0da9ca74ca8bf2efe074c06444">&#9670;&nbsp;</a></span>decode_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void decode_tree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>s_p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtree__o.html">tree_o</a> *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tree_p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tree_l</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функція, що рекурсивно розпаковує дерево з файлу </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>Вказівник на буфер з вихідним файлом </td></tr>
+    <tr><td class="paramname">s_p</td><td>Вказівник на позицію в буфері, параметр рекурсії </td></tr>
+    <tr><td class="paramname">tree</td><td>Вказівник на результативне дерево </td></tr>
+    <tr><td class="paramname">tree_p</td><td>Індекс вузла у дереві, параметр рекурсії </td></tr>
+    <tr><td class="paramname">tree_l</td><td>Довжина дерева </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_aea0acc0da9ca74ca8bf2efe074c06444_icgraph.png" border="0" usemap="#main_8c_aea0acc0da9ca74ca8bf2efe074c06444_icgraph" alt=""/></div>
+<map name="main_8c_aea0acc0da9ca74ca8bf2efe074c06444_icgraph" id="main_8c_aea0acc0da9ca74ca8bf2efe074c06444_icgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ ÑÐ¾Ð·Ð¿Ð°ÐºÐ¾Ð²ÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð· ÑÐ°Ð¹Ð»Ñ" alt="" coords="216,5,309,32"/>
+<area shape="rect"  href="main_8c.html#ae32d5e5468200a2a0152c7115ab77fc7" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð·ÑÐ¸ÑÑÑ Ð&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° Ð´ÐµÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,5,168,32"/>
+<area shape="rect"  href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae228fd37b6f12dba432cdf254c143890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae228fd37b6f12dba432cdf254c143890">&#9670;&nbsp;</a></span>draw_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void draw_tree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtree__o.html">tree_o</a> *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>treem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функція, що генерує дерево Хафмана в форматі graphviz. </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tree</td><td>Вказівник на структуру дерева </td></tr>
+    <tr><td class="paramname">tl</td><td>Кількість вузлів дерева </td></tr>
+    <tr><td class="paramname">freq</td><td>Вказівник на масив частот вершин </td></tr>
+    <tr><td class="paramname">treem</td><td>Вид дерева </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_ae228fd37b6f12dba432cdf254c143890_icgraph.png" border="0" usemap="#main_8c_ae228fd37b6f12dba432cdf254c143890_icgraph" alt=""/></div>
+<map name="main_8c_ae228fd37b6f12dba432cdf254c143890_icgraph" id="main_8c_ae228fd37b6f12dba432cdf254c143890_icgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð³ÐµÐ½ÐµÑÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð¥Ð°ÑÐ¼Ð°Ð½Ð° Ð² ÑÐ¾ÑÐ¼Ð°ÑÑ graphviz." alt="" coords="216,5,295,32"/>
+<area shape="rect"  href="main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑ H&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° ÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,5,168,32"/>
+<area shape="rect"  href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8496f5dafa0bfe7ca18914a39fc305d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8496f5dafa0bfe7ca18914a39fc305d1">&#9670;&nbsp;</a></span>encode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void encode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s_s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>r_s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>treem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функція, що будує H-дерево та кодує файл </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>Вказівник на буфер з вихідним файлом </td></tr>
+    <tr><td class="paramname">s_s</td><td>Довжина вихідного файлу </td></tr>
+    <tr><td class="paramname">r</td><td>Вказівник на буфер з результативним файлом </td></tr>
+    <tr><td class="paramname">r_s</td><td>Довжина результативного файлу </td></tr>
+    <tr><td class="paramname">dt</td><td>Параметр необхідності візуалізації </td></tr>
+    <tr><td class="paramname">treem</td><td>Вид дерева </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_cgraph.png" border="0" usemap="#main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_cgraph" alt=""/></div>
+<map name="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_cgraph" id="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_cgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑ H&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° ÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="5,31,69,57"/>
+<area shape="rect"  href="main_8c.html#a921e75299d6600cb4acded9ba5fab7dd" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ Ð¿Ð°ÐºÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ñ ÑÐ°Ð¹Ð»" alt="" coords="117,5,211,32"/>
+<area shape="rect"  href="main_8c.html#ae228fd37b6f12dba432cdf254c143890" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð³ÐµÐ½ÐµÑÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð¥Ð°ÑÐ¼Ð°Ð½Ð° Ð² ÑÐ¾ÑÐ¼Ð°ÑÑ graphviz." alt="" coords="125,56,203,83"/>
+</map>
+</div>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_icgraph.png" border="0" usemap="#main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_icgraph" alt=""/></div>
+<map name="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_icgraph" id="main_8c_a8496f5dafa0bfe7ca18914a39fc305d1_icgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑ H&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° ÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,5,168,32"/>
+<area shape="rect"  href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a921e75299d6600cb4acded9ba5fab7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a921e75299d6600cb4acded9ba5fab7dd">&#9670;&nbsp;</a></span>encode_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void encode_tree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buf_p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a>&#160;</td>
+          <td class="paramname"><em>code</em>[alphabet_size][letter_size+2], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>r_p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtree__o.html">tree_o</a> *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функція, що рекурсивно пакує дерево у файл </p>
+<dl class="params"><dt>Аргументи</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buf</td><td>Вказівник на буфер розміру letter_size для коду поточного символу </td></tr>
+    <tr><td class="paramname">buf_p</td><td>Позиція в буфері, параметр рекурсії </td></tr>
+    <tr><td class="paramname">code</td><td>Результативний масив згенерованих кодів для подальшого кодування файлу </td></tr>
+    <tr><td class="paramname">r</td><td>Вказівник на результативний масив, що представляє вміст закодованого файлу </td></tr>
+    <tr><td class="paramname">r_p</td><td>Вказівник у масиві r, що вказує на поточну позицію нового символу </td></tr>
+    <tr><td class="paramname">tree</td><td>Вказівник на структуру дерева для пакування </td></tr>
+    <tr><td class="paramname">ind</td><td>Номер вершини в дереві, параметр рекурсії </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф викликів для цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a921e75299d6600cb4acded9ba5fab7dd_icgraph.png" border="0" usemap="#main_8c_a921e75299d6600cb4acded9ba5fab7dd_icgraph" alt=""/></div>
+<map name="main_8c_a921e75299d6600cb4acded9ba5fab7dd_icgraph" id="main_8c_a921e75299d6600cb4acded9ba5fab7dd_icgraph">
+<area shape="rect"  title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ Ð¿Ð°ÐºÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ñ ÑÐ°Ð¹Ð»" alt="" coords="216,5,309,32"/>
+<area shape="rect"  href="main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑ H&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° ÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,5,168,32"/>
+<area shape="rect"  href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Головна функція, реалізує взаємодію з користувачем та введення-виведення </p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#main_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="main_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="main_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect"  title="ÐÐ¾Ð»Ð¾Ð²Ð½Ð° ÑÑÐ½ÐºÑÑÑ, ÑÐµÐ°Ð»ÑÐ·ÑÑ Ð²Ð·Ð°ÑÐ¼Ð¾Ð´ÑÑ Ð· ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ ÑÐ° Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ&#45;Ð²Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ" alt="" coords="5,81,56,108"/>
+<area shape="rect"  href="main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑ H&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° ÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,56,168,83"/>
+<area shape="rect"  href="main_8c.html#ae32d5e5468200a2a0152c7115ab77fc7" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð·ÑÐ¸ÑÑÑ Ð&#45;Ð´ÐµÑÐµÐ²Ð¾ ÑÐ° Ð´ÐµÐºÐ¾Ð´ÑÑ ÑÐ°Ð¹Ð»" alt="" coords="104,107,168,133"/>
+<area shape="rect"  href="main_8c.html#a921e75299d6600cb4acded9ba5fab7dd" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ Ð¿Ð°ÐºÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ñ ÑÐ°Ð¹Ð»" alt="" coords="216,5,309,32"/>
+<area shape="rect"  href="main_8c.html#ae228fd37b6f12dba432cdf254c143890" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ Ð³ÐµÐ½ÐµÑÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð¥Ð°ÑÐ¼Ð°Ð½Ð° Ð² ÑÐ¾ÑÐ¼Ð°ÑÑ graphviz." alt="" coords="223,56,302,83"/>
+<area shape="rect"  href="main_8c.html#aea0acc0da9ca74ca8bf2efe074c06444" title="Ð¤ÑÐ½ÐºÑÑÑ, ÑÐ¾ ÑÐµÐºÑÑÑÐ¸Ð²Ð½Ð¾ ÑÐ¾Ð·Ð¿Ð°ÐºÐ¾Ð²ÑÑ Ð´ÐµÑÐµÐ²Ð¾ Ð· ÑÐ°Ð¹Ð»Ñ" alt="" coords="216,107,309,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Опис змінних</h2>
+<a id="a63ed315089caafcf9720aac0c2826f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63ed315089caafcf9720aac0c2826f7d">&#9670;&nbsp;</a></span>alphabet_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> alphabet_size = 256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accf9a3775c119201a00f6cf6d0e62d93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf9a3775c119201a00f6cf6d0e62d93">&#9670;&nbsp;</a></span>ba</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> ba[8] = { 128, 64, 32, 16, 8, 4, 2, 1 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78d638cee113d5601ffcdc814ce80f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78d638cee113d5601ffcdc814ce80f57">&#9670;&nbsp;</a></span>iba</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="main_8c.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> iba[8] = { 127, 191, 223, 239, 247, 251, 253, 254 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e590999171ee19212715b99a74e44c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e590999171ee19212715b99a74e44c1">&#9670;&nbsp;</a></span>letter_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="main_8c.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> letter_size = 256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="main_8c.html">main.c</a></li>
+    <li class="footer">Створено системою
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

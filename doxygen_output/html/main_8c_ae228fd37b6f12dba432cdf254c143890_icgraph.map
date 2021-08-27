@@ -1,0 +1,5 @@
+<map id="draw_tree" name="draw_tree">
+<area shape="rect" id="node1" title="Функція, що генерує дерево Хафмана в форматі graphviz." alt="" coords="216,5,295,32"/>
+<area shape="rect" id="node2" href="$main_8c.html#a8496f5dafa0bfe7ca18914a39fc305d1" title="Функція, що будує H&#45;дерево та кодує файл" alt="" coords="104,5,168,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Головна функція, реалізує взаємодію з користувачем та введення&#45;виведення" alt="" coords="5,5,56,32"/>
+</map>

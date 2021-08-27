@@ -1,0 +1,5 @@
+<map id="decode_tree" name="decode_tree">
+<area shape="rect" id="node1" title="Функція, що рекурсивно розпаковує дерево з файлу" alt="" coords="216,5,309,32"/>
+<area shape="rect" id="node2" href="$main_8c.html#ae32d5e5468200a2a0152c7115ab77fc7" title="Функція, що зчитує Н&#45;дерево та декодує файл" alt="" coords="104,5,168,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Головна функція, реалізує взаємодію з користувачем та введення&#45;виведення" alt="" coords="5,5,56,32"/>
+</map>
